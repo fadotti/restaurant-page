@@ -108,9 +108,95 @@ div.menu > div {
 div.menu > div > div:first-child {
   font-size: 3rem;
   font-family: "Petit Formal Script", cursive;
+  margin: 50px 0 20px;
+}
+
+div.menu > div:first-child > div:first-child {
+  margin-top: 0;
 }
 
 div.menu > div > div:nth-child(2) {
   display: grid;
-  grid-template-columns: 200px 200px;
+  grid-template-columns: 500px 500px;
+  place-items: center;
+  row-gap: 50px;
+  column-gap: 20px;
+}
+
+div.menu > div:not(:first-child) > div:nth-child(2) {
+  display: grid;
+  grid-template-columns: repeat(3, 380px);
+  place-items: center;
+}
+
+/* Cards */
+
+.card { 
+  background-color: #3d3d3d;
+  border-radius: 5px;
+  border-left: solid 5px #FDE7AB;
+}
+
+.card-row {
+  display: flex;
+}
+
+.card-column {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  height: 150px;
+  gap: 15px;
+  border-right: solid 1px #FDE7AB;
+}
+
+.card-column > div {
+  padding: 0.7rem;
+}
+
+.card-column > div:first-child {
+  font-family: "Milonga", serif;
+  font-size: 1.1rem;
+}
+
+.card-row > div:nth-child(2) {
+  display: grid;
+  place-items: center;
+  padding: 0.5rem;
+  width: 80px;
+}
+
+/* "Combos" cards */
+
+div.menu > div:first-child .card-column {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 180px;
+  gap: 15px;
+  border-right: solid 1px #2dc0fa;
+}
+
+div.menu > div:first-child .card-column > div {
+  padding: 0.7rem;
+}
+
+div.menu > div:first-child .card-column > div:first-child {
+  font-family: "Milonga", serif;
+  font-size: 1.2rem;
+}
+
+div.menu > div:first-child .card-row > div:nth-child(2) {
+  display: grid;
+  place-items: center;
+  padding: 0.5rem;
+  width: 90px;
+}
+
+div.menu > div:first-child .card { 
+  border-left: solid 5px #2dc0fa;
+}
+
+div.menu > div:last-child {
+  margin-bottom: 50px;
 }
