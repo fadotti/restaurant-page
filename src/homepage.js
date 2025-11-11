@@ -1,9 +1,11 @@
 function renderHomepage() {
   const contentDiv = document.querySelector("div#content");
+  const child = document.createElement("div");
+  child.className = "home";
 
-  contentDiv.appendChild(document.createElement("div"));
+  contentDiv.appendChild(child);
 
-  const innerDiv = document.querySelector("div#content > div");
+  const innerDiv = document.querySelector("div#content > div.home");
 
   innerDiv.appendChild(document.createElement("div"));
   innerDiv.appendChild(document.createElement("div"));

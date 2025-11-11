@@ -33,7 +33,7 @@ nav > button:hover {
   font-weight: bold;
 }
 
-/* Content */
+/* Content - Home*/
 
 div#content {
   background: url("./images/ezequiel-garrido-aWh5s820JZI-unsplash.jpg") 50% 0 / contain no-repeat;
@@ -41,7 +41,7 @@ div#content {
   height: 700px;
 }
 
-div#content > div {
+div#content > div.home {
   background-color: rgba(0, 0, 0, 0.35);
   display: flex;
   flex-direction: column;
@@ -50,20 +50,20 @@ div#content > div {
   top: 7%;
 }
 
-div#content > div > div:first-child {
+div#content > div.home > div:first-child {
   color: #fffafa;
   font-size: 2rem;
   text-align: center;
   margin-bottom: 200px;
 }
 
-div#content > div > div:first-child > span {
+div#content > div.home > div:first-child > span {
   color: #fffafa;
   font-size: 3rem;
   font-family: "Milonga", serif;
 }
 
-div#content > div > div:nth-child(2) {
+div#content > div.home > div:nth-child(2) {
   color: #fffafa;
   font-size: 1.1rem;
   text-align: center;
@@ -87,4 +87,30 @@ div#content button:hover {
   background-color: #FDE7AB;
   color: #240000;
   font-weight: bold;
+}
+
+/* Content - Menu*/
+
+div#content > div.menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 700px;
+  color: #fffafa;
+}
+
+div.menu > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+div.menu > div > div:first-child {
+  font-size: 3rem;
+  font-family: "Petit Formal Script", cursive;
+}
+
+div.menu > div > div:nth-child(2) {
+  display: grid;
+  grid-template-columns: 200px 200px;
 }
