@@ -1,3 +1,3 @@
-const contactMessage = "Aqu&iacute; puedes encontrar toda la informaci&oacute;n sobre nuestro restaurante. Estamos ubicados en barrio G&uuml;emes, a dos cuadras de La Ca&ntilde;ada. Para reservar una mesa puede llamar o enviar un mensaje de whatsapp a nuestro n&uacute;mero de contacto. <br>No dudes en contarnos tu experiencia escribiendo a nuestra direcci&oacute;n de correo electr&oacute;nico.";
+const contactMessage = "Aqu&iacute; puede encontrar toda la informaci&oacute;n sobre nuestro restaurante. Estamos ubicados en barrio G&uuml;emes, a dos cuadras de La Ca&ntilde;ada.<br> Para reservar una mesa puede llamar o enviar un mensaje de whatsapp a nuestro n&uacute;mero de contacto. <br>No dude en contarnos tu experiencia escribiendo a nuestra direcci&oacute;n de correo electr&oacute;nico.";
 
 export {contactMessage};

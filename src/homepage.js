@@ -1,5 +1,14 @@
+import image from "./images/ezequiel-garrido-aWh5s820JZI-unsplash.jpg";
+
 function renderHomepage() {
   const contentDiv = document.querySelector("div#content");
+  contentDiv.replaceChildren([]);
+
+  const contentDivRule = document.styleSheets[2].cssRules[5].style;
+  contentDivRule.background = 'url("http://localhost:8080/df03a4bb2ea9776c4b1b.jpg") 50% 0px / contain no-repeat';
+  console.log(image);
+  console.log(typeof image);
+
   const child = document.createElement("div");
   child.className = "home";
 

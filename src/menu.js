@@ -2,7 +2,7 @@ function renderMenu() {
   const contentDiv = document.querySelector("div#content");
   contentDiv.replaceChildren([]);
 
-  const contentDivRule = document.styleSheets[2].cssRules[4].style;
+  const contentDivRule = document.styleSheets[2].cssRules[5].style;
   contentDivRule.backgroundImage = '';
 
   const child = document.createElement("div");
@@ -50,11 +50,6 @@ function renderMenu() {
 
     return card
   }
-
-
-
-
-
 
   menuCardContainers[0].appendChild(createCard(
     1,
@@ -136,7 +131,7 @@ function renderMenu() {
   menuCardContainers[2].appendChild(createCard(
     1,
     "Lomo completo",
-    "Sandwich con bife de lomo, lechuga, tomate, jam&oacute;n cocido, queso y aderezos a elecci &oacute;n",
+    "Sandwich con bife de lomo, huevo, lechuga, tomate, jam&oacute;n cocido, queso y aderezos a elecci&oacute;n",
     "AR$ <br> 15.000"
   ));
 
@@ -219,5 +214,3 @@ function renderMenu() {
 }
 
 export {renderMenu}
-
-// document.styleSheets[2].cssRules[4].style.backgroundImage

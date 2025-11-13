@@ -1,13 +1,13 @@
 import mapMarker from "./SVGs/map-marker.svg";
 import phoneOutline from "./SVGs/phone-outline.svg";
 import email from "./SVGs/email.svg";
-import { contactMessage } from "./contact-message";
+import { contactMessage } from "./contact-message.js";
 
 function renderContactPage() {
   const contentDiv = document.querySelector("div#content");
   contentDiv.replaceChildren([]);
 
-  const contentDivRule = document.styleSheets[2].cssRules[4].style;
+  const contentDivRule = document.styleSheets[2].cssRules[5].style;
   contentDivRule.backgroundImage = '';
 
   const child = document.createElement("div");
