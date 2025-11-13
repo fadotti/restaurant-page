@@ -163,7 +163,7 @@ function renderMenu() {
 
   menuCardContainers[3].appendChild(createCard(
     1,
-    "Agua",
+    "Agua mineral",
     "Villavicencio, 500ml",
     "AR$ <br> 2.000"
   ));
@@ -213,7 +213,7 @@ function renderMenu() {
   menuCardContainers[4].appendChild(createCard(
     1,
     "Sambay&oacute;n",
-    "Postre a base de llemas de huevo, az&uacute;car y Oporto con nueces",
+    "Postre a base de yemas de huevo, az&uacute;car y Oporto con nueces",
     "AR$ <br> 3.500"
   ));
 }

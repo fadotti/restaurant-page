@@ -15,7 +15,7 @@ function renderHomepage() {
   const secondChild = document.querySelector("div#content > div > *:nth-child(2)");
   const thirdChild = document.querySelector("div#content > div > *:nth-child(3)");
 
-  firstChild.innerHTML = "Bienvenidos a <br> <span>Pradera Serrana <br>parrillada y bodeg&oacute;n</span>";
+  firstChild.innerHTML = "Bienvenidos a <br> <span>Pradera Serrana <br>Parrillada y bodeg&oacute;n</span>";
   secondChild.innerHTML = "Para reservar tu lugar, hac&eacute; click en el bot&oacute;n:";
   thirdChild.textContent = "Reservar";
 }

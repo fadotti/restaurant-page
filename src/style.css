@@ -22,7 +22,7 @@ nav > button {
   font-size: 1.1rem;
   background-color: #3d3d3d;
   transition: all 0.3s ease-in-out;
-  color: #fffafa;
+  color: white;
   border: none;
 }
 
@@ -51,20 +51,20 @@ div#content > div.home {
 }
 
 div#content > div.home > div:first-child {
-  color: #fffafa;
+  color: white;
   font-size: 2rem;
   text-align: center;
   margin-bottom: 200px;
 }
 
 div#content > div.home > div:first-child > span {
-  color: #fffafa;
+  color: white;
   font-size: 3rem;
   font-family: "Milonga", serif;
 }
 
 div#content > div.home > div:nth-child(2) {
-  color: #fffafa;
+  color: white;
   font-size: 1.1rem;
   text-align: center;
   margin-bottom: 35px;
@@ -96,7 +96,7 @@ div#content > div.menu {
   flex-direction: column;
   align-items: center;
   width: 700px;
-  color: #fffafa;
+  color: white;
 }
 
 div.menu > div {
@@ -199,4 +199,41 @@ div.menu > div:first-child .card {
 
 div.menu > div:last-child {
   margin-bottom: 50px;
+}
+
+/* Content - Contact Page */
+
+div.contact-page {
+  background-color: #121212;
+  /* display: flex;
+  flex-direction: column;
+  align-items: flex-start; */
+  /* padding: 20px; */
+  width: 500px;
+  color: white;
+  gap: 10px;
+  border: solid 2px #FDE7AB;
+}
+
+div.contact-page > div > img {
+  width: 30px;
+}
+
+div.contact-page > div:not(:first-child) {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-weight: bold;
+}
+
+div.contact-page > div:first-child {
+  padding-bottom: 20px;
+}
+
+div.contact-page > div:nth-child(even) {
+  background-color: black;
+}
+
+div.contact-page > div {
+  padding: 7px;
 }
