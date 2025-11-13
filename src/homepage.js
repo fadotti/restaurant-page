@@ -5,7 +5,7 @@ function renderHomepage() {
   contentDiv.replaceChildren([]);
 
   const contentDivRule = document.styleSheets[2].cssRules[5].style;
-  contentDivRule.background = 'url("http://localhost:8080/df03a4bb2ea9776c4b1b.jpg") 50% 0px / contain no-repeat';
+  contentDivRule.background = `url("${image}") 50% 0px / contain no-repeat`;
   console.log(image);
   console.log(typeof image);
 
